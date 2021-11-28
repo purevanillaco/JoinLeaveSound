@@ -1,0 +1,14 @@
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+# use "sound: NONE" for disabling
+
+player: # plays to the player that joined
+  join:
+    sound: MUSIC_DISC_OTHERSIDE
+    pitch: 1
+server: # plays to all the players except for the one who joined/left
+  join:
+    sound: ENTITY_CHICKEN_EGG
+    pitch: 1.5
+  leave:
+    sound: ENTITY_CHICKEN_EGG
+    pitch: 0.5

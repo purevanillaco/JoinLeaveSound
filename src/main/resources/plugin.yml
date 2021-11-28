@@ -1,0 +1,6 @@
+name: JoinSounds
+author: quiquelhappy
+main: co.purevanilla.mcplugins.JoinLeaveSound.Main
+description: plays sound when connecting or disconnecting
+version: 1.0-SNAPSHOT
+api-version: 1.13
